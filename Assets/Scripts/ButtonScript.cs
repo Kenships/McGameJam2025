@@ -10,5 +10,4 @@ public class TestButton : MonoBehaviour
   public void FancyButtonPressed() {
     newBtn = Instantiate(ButtonTemp, transform);
   }
- // hello there   
 }
