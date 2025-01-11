@@ -12,7 +12,7 @@ public class DragDrop : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDrag
     public void OnBeginDrag(PointerEventData eventData)
     {
         Debug.Log("OnBeginDrag");
-        parentAfterDrag = transform.parent;
+        SetParentAfterDrag(transform.root);
         transform.SetParent(transform.root);
         transform.SetAsLastSibling();
         image.raycastTarget = false;

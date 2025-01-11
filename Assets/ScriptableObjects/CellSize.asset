@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37627af6540a4ae43800f52f6b662095, type: 3}
   m_Name: CellSize
   m_EditorClassIdentifier: 
-  cellSize: 0
+  cellSize: 85
