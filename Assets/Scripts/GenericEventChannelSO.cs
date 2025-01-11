@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Serialization;
 
-[CreateAssetMenu(fileName = "GenericEventChannelSO", menuName = "Scriptable Objects/GenericEventChannelSO")]
+[CreateAssetMenu(fileName = "GenericEventChannelSO", menuName = "Events/GenericEventChannelSO")]
 public abstract class GenericEventChannelSO<T> : ScriptableObject
 {
     [Tooltip("Assign event to this channel | added subscribers will be invoked.")]
